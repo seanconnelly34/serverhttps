@@ -1,0 +1,73 @@
+.sigCanvas {
+  border: 1px solid black;
+  width: 700px;
+  height: 400px;
+}
+
+@media only screen and (max-width: 400px) {
+  .sigCanvas {
+    border: 1px solid black;
+    width: 90%;
+    min-height: 200px;
+  }
+  .MuiTab-wrapper {
+    font-size: 16px !important;
+    padding: 20px 0px;
+  }
+}
+.body {
+  background-color: #faf9f3;
+}
+.registration {
+  text-align: center;
+  font-size: 33px;
+  color: #443f3f;
+  margin-bottom: 0px;
+  text-decoration: underline;
+}
+h1,
+h2 {
+  color: #443f3f;
+}
+.MuiTypography-root,
+.MuiFormControlLabel-label,
+.MuiTypography-body1 {
+  font-size: 19px !important;
+}
+.MuiInput-root,
+.MuiInput-underline,
+.MuiInputBase-fullWidth,
+.MuiInput-fullWidth,
+.MuiInputBase-formControl,
+.MuiInput-formControl,
+.MuiInputBase-adornedEnd {
+  font-size: 19px !important;
+}
+.checkBoxes {
+  margin-top: 19px !important;
+}
+.yesno {
+  margin-top: 18px;
+  margin-left: 20px;
+}
+
+.error {
+  color: red;
+  font-size: 20px !important;
+}
+.footer {
+  background-color: #2c2c2c;
+  height: 200px;
+}
+.footerp {
+  color: white;
+}
+
+.mobile {
+  display: none;
+}
+
+.MuiTab-wrapper {
+  font-size: 20px;
+  padding: 20px 0px;
+}
